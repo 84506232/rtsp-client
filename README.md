@@ -1,5 +1,6 @@
 # rtsp-client
 RTSP_Stream_Init(CallBackFunc) callbackfunc get rtsp data
+
 live555编译方法：
 	1.解压live555后，将config.armlinux中toolchain改成自己的，并添加-DLOCALE_NOT_USED -fPIC
 		CROSS_COMPILE?=		arm-linux-gnueabihf-
